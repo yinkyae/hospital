@@ -1,0 +1,62 @@
+body {
+  background-color: var(--primary_color) !important;
+}
+/* blood donate header */
+.blood_donate_header {
+  text-align: center;
+  color: var(--first_color);
+  font-family: var(--secondary_font);
+  font-size: var(--large);
+}
+/* Card */
+.center_card{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  height: 100%;
+}
+.center_name{
+  text-align: center;
+  color: var(--first_color);
+}
+.yellow_color{
+  color: var(--third_color);
+}
+.white_color{
+  color: var(--first_color);
+}
+.center_name_div{
+  width: 40%;
+}
+.center_address_div{
+  width: 50%;
+}
+.center_card_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  height: 12em;
+}
+/* Mobile View */
+@media only screen and (max-width: 800px) {
+  .center_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .center_card_wrapper{
+    height: 9em;
+  }
+  .center_name_div{
+    width: 100%;
+  }
+  .center_address_div{
+    width: 100%;
+  }
+  .center_name{
+    text-align: start;
+  }
+
+}

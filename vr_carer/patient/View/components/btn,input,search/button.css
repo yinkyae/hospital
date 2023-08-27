@@ -1,0 +1,71 @@
+body{
+    padding: 5% !important;
+    background-color: var(--primary_color) !important;
+}
+
+/* Blue Square Button */
+.square_blue_btn{
+    background-color: var(--secondary_color) !important;
+    color: var(--first_color);
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: var(--extra_small);
+}
+/* White Square Button */
+.square_white_btn{
+    background-color: var(--first_color) !important;
+    color:  var(--secondary_color);
+    border: 2px solid var(--secondary_color);
+    width: 250px;
+    height: 50px;
+    font-size: var(--extra_small);
+}
+
+/* White Link Button */
+.link_white_btn{
+    color: var(--first_color);
+    font-size: var(--extra_small);
+}
+/* Blue Link Button */
+.link_blue_btn{
+    color:  var(--secondary_color);
+    font-size: var(--extra_small);
+    opacity: 50%;
+}
+
+/* Input Box */
+.input_box{
+    width: 30em;
+    height: 3em;
+    border: 1px solid var(--primary_color);
+}
+
+/* Search Box */
+.searchbox{
+    width: 25em;
+    height: 2.5em;
+    border-radius: 5em;
+    position: relative;
+}
+.search_input{
+    width: 20em;
+    height: 2.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5em;
+    border: none;
+}
+.search_icon{
+    position: absolute;
+    top: 30%;
+    left: 5em;
+    font-size: var(--extra_small);
+}
+.search_text{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    font-size: var(--extra_small);
+}

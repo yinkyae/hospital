@@ -1,0 +1,79 @@
+body {
+  background-color: var(--primary_color) !important;
+}
+/* Page header */
+.about_header {
+  text-align: center;
+  font-size: var(--large);
+  font-family: var(--secondary_font);
+  font-weight: bold;
+  color: var(--first_color);
+}
+/*hover the title*/
+.about_header:hover{
+  color:var(--tertiary_color);
+}
+.header-2:hover{
+  color:var(--tertiary_color) !important;
+}
+/* Page Bottom header */
+.about_header_1 , .header-2{
+  text-align: center !important;
+  font-size: var(--large) !important;
+  font-family: var(--secondary_font) !important;
+  font-weight: bold !important;
+  color: var(--first_color) !important;
+}
+/* Center Photo */
+.align {
+  padding-left: 12em;
+}
+
+/* Margin*/
+.display_top{
+    margin-top: 8%;
+}
+.display_bottom{
+    margin-bottom: 8%;
+}
+
+.about_line{
+    text-align: center;
+    height: 1.5px;
+    width: 100%;
+    background-color: var(--second_color);
+    margin-top: 8%;
+    border: none;
+}
+/* card image*/
+.about_us_image{
+    width: 75%;
+    height: 100%;
+}
+/* Section-1 image*/
+.about_us_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+  
+}
+
+/* section 3 card */
+.content-container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.content-card-header{
+  font-size: 1.25rem !important;
+  font-weight: bold;
+  color:var(--third_color);
+}
+
+.card{
+  border-radius: 15px !important;
+}
+

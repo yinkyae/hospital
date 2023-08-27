@@ -1,0 +1,55 @@
+body{
+    background-color:#1C92D2 !important;
+}
+
+.row{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.select-doctor{
+    height:3.125rem !important;
+    width: 15.625rem !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+/* doctor card*/
+.cart{
+    background-color: white !important;
+    margin: 3rem !important;
+}
+
+.card-img-top{
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50% !important;
+    
+}
+.btn{
+    background-color: #FFC652 !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+p{
+    margin-left: 1rem !important;
+}
+.image{
+    margin-top: 5px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.list-inline{
+   color: white !important;
+    
+}
+.btk{
+    text-align: center !important;
+    background-color: #FFC652 !important;
+}
+hr{
+    color: #2535A1 !important;
+}
+

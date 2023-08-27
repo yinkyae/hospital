@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary_color) !important;
+}
+
+.wclback {
+  color: var(--third_color);
+  position: absolute;
+  top: 90px;
+  left: 160px;
+}
+
+.login {
+  margin-left: 60px !important;
+  font-family: var(--secondary_font) !important;
+  font-size: var(--medium);
+  margin-top: 120px !important;
+}
+
+.body {
+  margin-left: 100px !important;
+}
+
+.inpbox {
+  margin-left: 200px !important;
+  font-family: var(--primary_font) !important;
+}
+
+.name {
+  width: 400px !important;
+}
+
+.btnsignup {
+  font-family: var(--secondary_font) !important;
+  color: white !important;
+  width: 200px !important;
+  background-color: var(--secondary_color) !important;
+  margin-left: 100px !important;
+  font-family: var(--secondary_font);
+  font-size: var(--extra_small);
+}
+
+.reg {
+  margin-left: 150px !important;
+  font-family: var(--secondary_font) !important;
+  font-size: var(--extra_extra_small) !important; 
+}
+
+.login_img {
+  position: absolute;
+  float: left;
+  bottom: 10px;
+  right: 40px;
+}
+
+.forgotpsw{
+    margin-left: 280px !important;
+    color: #2535A1 !important;
+    font-size: var(--extra_extra_small);
+
+}

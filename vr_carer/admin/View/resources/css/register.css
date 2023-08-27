@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--third_color) !important;
+}
+
+.adm_login {
+  margin-top: 300px !important;
+  color: var(--fourth_color);
+  font-family: var(--secondary_font);
+  font-size: var(--medium);
+  margin-top: 150px !important;
+}
+
+.inp_box {
+  width: 40% !important;
+  margin-left: 30% !important;
+}
+
+.btn_login {
+  font-family: var(--secondary_font) !important;
+  color: var(--third_color) !important;
+  width: 200px !important;
+  margin-left: 170px !important;
+  font-family: var(--primary_font);
+  font-size: var(--extra_small);
+  border-radius: 50px !important;
+}
+.reg{
+    margin-left:186px !important;
+    font-size: 14px !important;
+}
+@media screen and (max-width: 700px) {
+  .btn_login {
+    margin-left: 40px !important;
+    width: 100px !important;
+  }.reg{
+    margin-left: 40px !important;
+    
+  }
+}

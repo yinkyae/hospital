@@ -1,0 +1,46 @@
+.display_top{
+    margin-top: 3%;
+  }
+  .display_bottom{
+    margin-bottom: 8%;
+  }
+  .text_display{
+    margin-left: 2.5em;
+  }
+  .merge{
+    margin-left: 8%;
+  }
+
+.display{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.text_color{
+    color: var(--third_color);
+    font-size: var(--large);
+}
+.cardColor{
+    background-color: #0ED2F7 !important;
+}
+.cardTextAlign{
+    margin-right: 6%;
+}
+.reject_color{
+    color: var(--fourth_color);
+}
+.pending_color{
+    color: var(--third_color);
+}
+.approve_color{
+    color: var(--sixth_color);
+}
+.searchDay{
+  background-color: var(--secondary_color);
+  font-size: var(--extra_small)!important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: var(--first_color);
+}
+.searchDay:hover{
+  color: var(--second_color);
+}

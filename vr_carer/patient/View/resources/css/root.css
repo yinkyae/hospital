@@ -1,0 +1,350 @@
+/* User Css root */
+
+/* Background Color */
+:root {
+  --primary_color: #1c92d2;
+  --secondary_color: #2535a1;
+  --tertiary_color: #fccb6a;
+}
+/* Text Color */
+:root {
+  --first_color: #ffffff;
+  --second_color: #000000;
+  --third_color: #fccb6a;
+  --fourth_color: #1c92d2;
+  --fifth_color: ##ef233c;
+}
+/* Font Family */
+:root {
+  --primary_font: "Source Sans Pro", sans-serif;
+  --secondary_font: "Archivo Narrow", sans-serif;
+}
+/* Font Size */
+:root {
+  --extra_large: 5em;
+  --large: 2.5em;
+  --medium: 1.87em;
+  --small: 1.56em;
+  --extra_small: 1.25em;
+  --extra_extra_small: 0.9em;
+}
+
+/* user profile*/
+.profile {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.offcanvas_header {
+  position: relative;
+  width: 100%;
+  height: 3em;
+}
+.btn-close {
+  position: absolute;
+  top: 1em;
+  right: 10%;
+}
+.your_profile {
+  position: absolute;
+  top: 1em;
+  right: 40%;
+  color: var(--secondary_color);
+}
+.box {
+  margin-top: 1.875rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary_color);
+  padding: 1em;
+  border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.offcanvas_text{
+  display: block;
+}
+#name{
+  font-size: var(--extra_small);
+  font-weight: bold;
+}
+#offcanvas_photo{
+  width: 4em;
+  height: 4em;
+}
+#email{
+  font-size: var(--extra_extra_small);
+}
+.mainbox {
+  color: var(--first_color);
+  position: relative;
+}
+#offcanvas {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+#logoutbtn{
+  cursor: pointer;
+}
+#logoutbtn:hover{
+  color: var(--tertiary_color) !important;
+}
+.usersetting {
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--tertiary_color);
+  border: none;
+  position: absolute;
+  top: 0;
+  right: -3rem !important;
+}
+.usersetting:hover{
+  color: var(--first_color);
+}
+
+/* Header */
+.navbar {
+  background-color: var(--secondary_color);
+  border-bottom: 0.12em solid var(--second_color);
+}
+.navbar_text:hover {
+  color: var(--first_color);
+}
+.logo {
+  color: var(--first_color);
+}
+.navbar_text_div {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar_text {
+  color: var(--first_color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--extra_small);
+}
+.navbarProfileText {
+  display: none;
+}
+.navbarProfileText {
+  color: var(--first_color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--extra_small);
+}
+.menu_bar_icon {
+  color: var(--first_color) !important;
+}
+@media only screen and (max-width: 800px) {
+  .navbarProfileText {
+    display: inline;
+  }
+}
+/* patient history */
+#patient_history{
+  text-decoration: none;
+  color: var(--first_color);
+}
+
+/* Hover Design */
+.navbar_text {
+  margin: 20px auto;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  display: inline-block;
+  transition-property: transform;
+  transition: 0.25s ease;
+}
+.navbar_text::after {
+  content: "";
+  border-top: 2px solid var(--first_color);
+  width: 100%;
+  position: absolute;
+  display: block;
+  transform: rotateY(90deg);
+  transition: transform 0.25s linear;
+}
+.navbar_text:hover {
+  transform: scale(1);
+}
+.navbar_text:hover::after {
+  transform: rotate(0deg);
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  background-color: var(--secondary_color);
+  font-family: var(--primary_font);
+}
+.backlogo_name {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  letter-spacing: 0.3em !important;
+  font-size: var(--extra_large);
+  color: var(--first_color);
+  opacity: 0.05;
+}
+.link_color {
+  cursor: pointer;
+  color: var(--first_color) !important;
+  text-decoration: none;
+}
+.link_color:hover {
+  color: var(--tertiary_color) !important;
+}
+/* Tablet View */
+@media only screen and (max-width: 992px) {
+  .backlogo_name {
+    letter-spacing: 0.3em !important;
+    font-size: var(--medium);
+  }
+  .backlogo_name {
+    left: 35%;
+  }
+}
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+  .backlogo_name {
+    left: 20%;
+  }
+}
+
+
+/* First Aid Card */
+.first_aid_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary_color);
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  width: 80vw;
+  height: 20em;
+  background-color: var(--primary_color);
+}
+.card_img {
+  width: 100%;
+  height: 100%
+}
+.info {
+  width: 50%;
+  height: 100%;
+  font-size: var(--extra_extra_small);
+}
+.first_aid_card_header {
+  color: var(--first_color);
+  font-family: var(--primary_font);
+}
+.first_aid_para_header {
+  color: var(--third_color);
+  font-family: var(--primary_font);
+}
+.first_aid_para {
+  color: var(--first_color);
+  font-family: var(--primary_font);
+}
+.line {
+  height: 2px;
+  width: 80%;
+  background-color: var(--second_color);
+  margin-top: 1em;
+  border: none;
+}
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    height: 40em;
+  }
+  .info {
+    width: 100%;
+  }
+  .card_img {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+/* Blue Square Button */
+.square_blue_btn {
+  background-color: var(--primary_color) !important;
+  color: var(--first_color);
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: var(--extra_small);
+  border-radius: 0.313rem !important;
+}
+/* logout Button */
+.square_yellow_btn {
+  background-color: var(--tertiary_color) !important;
+  color: var(--first_color);
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: var(--extra_small);
+  border-radius: 0.313rem !important;
+}
+/* White Square Button */
+.square_white_btn {
+  background-color: var(--first_color) !important;
+  color: var(--secondary_color);
+  border: 2px solid var(--secondary_color);
+  width: 250px;
+  height: 50px;
+  font-size: var(--extra_small);
+}
+
+/* White Link Button */
+.link_white_btn {
+  color: var(--first_color);
+  font-size: var(--extra_small);
+}
+/* Blue Link Button */
+.link_blue_btn {
+  color: var(--secondary_color);
+  font-size: var(--extra_small);
+  opacity: 50%;
+}
+
+/* Input Box */
+.input_box {
+  width: 30em;
+  height: 3em;
+  border: 1px solid var(--primary_color);
+}
+
+/* Search Box */
+.searchbox {
+  width: 22em;
+  height: 2.5em;
+  border-radius: 5em;
+  position: relative;
+}
+.search_input {
+  width: 15em;
+  height: 2.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5em;
+  border: none;
+}
+.search_icon {
+  position: absolute;
+  top: 30%;
+  left: 1em;
+  font-size: var(--extra_small);
+}
+.search_text {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  font-size: var(--extra_small);
+}

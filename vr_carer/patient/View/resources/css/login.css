@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary_color) !important;
+}
+
+.wclback {
+  color: var(--third_color);
+}
+
+.login {
+  font-family: var(--secondary_font) !important;
+  font-size: var(--medium);
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.inpbox {
+  font-family: var(--primary_font) !important;
+}
+
+.btnsignup {
+  font-family: var(--secondary_font) !important;
+  color: white !important;
+  width: 12em !important;
+  background-color: var(--secondary_color) !important;
+  font-family: var(--secondary_font);
+  font-size: var(--extra_small);
+  margin: 0 auto;
+}
+
+.reg {
+  font-family: var(--secondary_font) !important;
+  font-size: var(--extra_extra_small) !important;
+  text-align: center;
+}
+.name {
+  width: 20em !important;
+}
+.forgotpsw {
+  color: #2535a1 !important;
+  font-size: var(--extra_extra_small);
+}
+.login_img {
+  height: 25em;
+}
+.inputbox_wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login_img {
+    display: none;
+  }
+}
+/* Password Eyelash */
+.password_box{
+  position: relative;
+}
+#eye{
+  position: absolute;
+  right: 5%;
+  top: 10px;
+}
+.icon{
+  color: var(--third_color);
+}

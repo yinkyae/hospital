@@ -1,0 +1,18 @@
+.add_dieses{
+    margin-left: 8rem !important;
+}
+#table_header > tr > td {
+    color: white;
+    font-size: var(--extra_extra_small);
+}
+.desc{
+    width: 700px;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width:900px) {
+    .form-container{
+        margin-left: 3rem !important;
+    }
+  }
+  

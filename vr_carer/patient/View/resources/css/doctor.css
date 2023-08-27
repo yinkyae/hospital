@@ -1,0 +1,166 @@
+body {
+  background-color: #1c92d2 !important;
+}
+
+.select-doctor {
+  height: 3.125rem !important;
+  width: 15.625rem !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.btn-row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* doctor card*/
+.card {
+  background-color: white !important;
+  width: 20rem !important;
+  margin: 3rem !important;
+}
+
+.card-img-top {
+  height: 150px !important;
+  width: 150px !important;
+  border-radius: 50% !important;
+}
+
+.image {
+  margin-top: 5px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.list-inline {
+  color: white !important;
+}
+.btk {
+  text-align: left !important;
+  font-weight: bold;
+  background-color: var(--secondary_color) !important;
+  width: 100%;
+  color: var(--first_color);
+}
+.title {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+}
+.form-check {
+  color: var(--secondary_color);
+  font-weight: 500 !important;
+}
+.form-check-label{
+  display: block;
+  position: relative;
+}
+#day{
+  position: absolute;
+  left: 2.5em;
+}
+#time{
+  position: absolute;
+ 
+}
+hr {
+  color: #2535a1 !important;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+#submit_atag {
+  text-decoration: none;
+  color: white !important;
+  display: block;
+}
+.submit {
+  background-color: var(--secondary_color) !important;
+  width: 100% !important;
+  border: 2px solid var(--secondary_color);
+}
+.submit:hover {
+  background-color: var(--first_color) !important;
+}
+#submit_atag:hover {
+  color: var(--secondary_color) !important;
+}
+.list-inline {
+  color: white !important;
+}
+
+hr {
+  color: #2535a1 !important;
+}
+
+.hidden{
+  display: none;
+}
+
+#allDoctor{
+  background-color: var(--secondary_color);
+  color: var(--first_color);
+  border: 2px solid var(--secondary_color);
+  border-radius: 10px;
+  padding: 0.3em 1em;
+}
+#allDoctor:hover{
+  background-color: transparent;
+}
+
+.doctorBtn{
+  color: var(--first_color) !important;
+  background-color: var(--secondary_color);
+  border: 1px solid var(--first_color);
+  border-radius:5px;
+  width: 20%;
+  height: 50px;
+  font-size: var(--extra_small);
+}
+.doctorBtn:hover {
+  background-color: #ffc652 !important;
+  color: var(--second_color) !important;
+  border: 2px solid var(--second_color);
+}
+.btnBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.doctorBtn_icon{
+  margin-right: 1em !important;
+}
+@media only screen and (max-width:1200px) {
+
+  .doctorBtn{
+    width: 30%;
+    font-size: var(--extra_extra_small);
+    height: 40px;
+  }
+}
+@media only screen and (max-width:800px) {
+  .doctorBtn{
+    width: 24%;
+    font-size:0.5em;
+    height: 30px;
+  }
+  .doctorBtn_icon{
+    margin-right: 0.5em !important;
+  }
+  .btnBox{
+    justify-content: space-evenly;
+  }
+
+}
+@media only screen and (max-width:380px) {
+  .doctorBtn_icon{
+    margin-right: 0.2em !important;
+  }
+  .doctorBtn{
+    width: 25%;
+    font-size:0.5em;
+    height: 40px;
+  }
+}

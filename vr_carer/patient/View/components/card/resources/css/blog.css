@@ -1,0 +1,78 @@
+body{
+    background-color: var(--primary_color) !important;
+}
+/* Page header */
+.blog_header{
+    text-align: center;
+    font-size: var(--large);
+    font-family: var(--secondary_font);
+    font-weight: bold;
+    color: var(--first_color);
+}
+/* Page Tab */
+.blog_tab_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog_tab{
+    width: 80%;
+    height: 12em;
+    text-align: center;
+    border-radius: 0.6em;
+    border: 0.12em solid var(--first_color);
+    display: flex;
+    justify-content: space-between;
+}
+/* Tab Text */
+.blog_tab_text_div{
+    width: 60%;
+    height: 100%;
+    border-radius: 0.6em 0 0 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog_tab_text{
+    color: var(--first_color);
+    font-family: var(--secondary_font);
+}
+/* Tab Img */
+.blog_tab_img_div{
+    width: 35%;
+    height: 100%;
+    border-radius: 0 0.6em  0.6em 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog_tab_img{
+    height: 80%;
+}
+/* Current Disease header */
+.current_disease_header{
+    color: var(--first_color);
+    font-family: var(--secondary_font);
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .blog_tab{
+        width: 80%;
+        height: 10em;
+    }
+    .blog_tab_img{
+        height: 60%;
+    }
+    .blog_tab_img_div{
+        width: 50%;
+    }
+    .blog_tab_text_div{
+        width: 50%;
+    }
+    .blog_tab_text{
+        font-size: var(--extra_small);
+    }
+}

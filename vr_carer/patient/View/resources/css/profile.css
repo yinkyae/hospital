@@ -1,0 +1,150 @@
+body {
+  background-color: var(--primary_color) !important;
+}
+.profile_wrapper {
+  height: 20em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile_photo_div {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profile_photo {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 5em;
+  height: 5em;
+}
+#photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.profile_edit {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#save_btn {
+  background-color: var(--secondary_color);
+  width: 15%;
+  height: 2.5em;
+  border-radius: 10px;
+  border: none;
+}
+#save_btn:hover {
+  background-color: var(--first_color);
+  color: var(--secondary_color) !important;
+}
+#pwdChangeBtn {
+  background-color: var(--first_color);
+  color: var(--second_color);
+  width: 15%;
+  height: 2.5em;
+  border-radius: 10px;
+  border: none;
+}
+#pwdChangeBtn:hover {
+  background-color: var(--primary_color);
+  color: var(--first_color);
+}
+#file_input {
+  border-radius: 10px;
+  width: 50%;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 2px solid var(--first_color);
+}
+#name_input {
+  outline: none;
+  border: 2px solid var(--first_color);
+  background-color: transparent;
+  border-radius: 10px;
+  width: 50%;
+  height: 2em;
+  padding-left: 10px;
+}
+.changeInput {
+  outline: none;
+  border: 2px solid var(--first_color);
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 2em;
+  padding-left: 10px;
+}
+.icon {
+  color: var(--third_color);
+}
+#changePwd {
+  background-color: var(--secondary_color);
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 800px) {
+  #pwdChangeBtn {
+    width: 30%;
+  }
+  #changePwd {
+    width: 80%;
+  }
+  .profile_wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+  }
+  .profile_photo_div {
+    justify-content: center;
+  }
+  #save_btn {
+    width: 30%;
+  }
+  #file_input,
+  #name_input {
+    width: 80%;
+  }
+  .profile_edit {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .profile_photo_div {
+    height: 40%;
+  }
+  .changeInput {
+    width: 90%;
+  }
+  .password_box {
+    width: 90%;
+  }
+}
+/* Password Eyelash */
+.password_box {
+  margin: 0 auto;
+  width: 40%;
+  position: relative;
+}
+#changeEye,#currentEye {
+  position: absolute;
+  right: 10%;
+  top: 10px;
+}
+.icon {
+  color: var(--first_color);
+}

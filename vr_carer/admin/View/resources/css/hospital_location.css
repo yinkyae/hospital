@@ -1,0 +1,31 @@
+.display_top{
+  margin-top: 3%;
+}
+.display_bottom{
+  margin-bottom: 8%;
+}
+.text_display{
+  margin-left: 2.5em;
+}
+#map{
+  display: block;
+  width: 350px !important;
+  border: none;
+}
+@media only screen and (max-width:800px) {
+  #map,#map_header,#email,#email_header{
+    display: none;
+  }
+}
+@media only screen and (max-width:1200px) {
+  #map,#map_header{
+    display: none;
+  }
+}
+#table_header>tr>td{
+  color: white;
+  font-size: var(--extra_extra_small);
+}
+.trash {
+  color: var(--fifth_color);
+}
